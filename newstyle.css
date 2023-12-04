@@ -1,0 +1,61 @@
+/* Styles for the title section */
+.title {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+/* Styles for the form section */
+.form {
+  margin: auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Cursor style for clickable elements */
+input[type='submit'], button, [aria-label] {
+  cursor: pointer;
+}
+
+/* Styles for the edit box */
+#edit-box {
+  display: none;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* Styles for table cells */
+td {
+  background-color: aliceblue;
+  padding-right: 10px;
+  text-align: center;
+}
+
+/* Styles for the to-do list */
+.to-do {
+  background: transparent !important;
+}
+
+/* Body styles */
+body {
+  font-family: arial;
+  background-image: linear-gradient(
+    white,
+    rgba(235, 235, 145, 0.904),
+    rgba(251, 255, 0, 0.411)
+  );
+}
+
+/* Styles for a new container with a sidebar and title */
+.container_new {
+  display: flex;
+}
+
+.container_new .sidebar {
+  width: 30%;
+}
+
+.container_new .title_new {
+  width: 70%;
+}
